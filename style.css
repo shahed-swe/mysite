@@ -137,6 +137,14 @@ footer{
   margin-right: auto;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
