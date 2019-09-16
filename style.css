@@ -131,6 +131,23 @@ footer{
   color: #d5d5d5;
   padding-top: 2rem;
 }
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a{
+  color: #d5d5d5;
+}
+
 .progress{
   text-align: center;
   margin-left: auto;
@@ -147,13 +164,86 @@ footer{
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+  ..gif{
+    max-width: 90%;
+  }
   }
 @media (max-width: 768px) {
+  .carousel-caption{
+    top: 20%;
+  }
   
+  .carousel-caption h1{
+    top: 35%;
+    font-size: 200%;
+  }
+  
+  .carousel-caption h2{
+    font-size: 170%;
+    text-transform: inherit;
+    text-shadow: 2px 3px 15px #000;
+  }
+  
+  .carousel-caption h3{
+    font-size: 150%;
+    color: rgb(243, 234, 245);
+    padding-bottom: .2rem;
+    text-shadow: 5px 3px 17px rgb(162, 54, 209);
+  }
+  .carousel-caption .btn{
+    font-size: 85%;
+    padding: 7px 12px;
+
+  }
+  .display-5{
+    font-size: 200%;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .gif{
+    max-width: 70%;
+  }
 }
 @media (max-width: 576px) {
+  .carousel-caption{
+    top: 5%;
+    font-size: .7rem;
+  }
   
+  .carousel-caption h1{
+    top:10%;
+    font-size: 120%;
+  }
+  
+  .carousel-caption h2{
+    font-size: 70%;
+    text-transform: inherit;
+    text-shadow: 1.2px 1.5px 10px #000;
+  }
+  
+  .carousel-caption h3{
+    font-size: 170%;
+    color: rgb(243, 234, 245);
+    padding-bottom: .2rem;
+    text-shadow: 5px 3px 17px rgb(162, 54, 209);
+  }
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 9px;
+
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .gif{
+    max-width: 50%;
+  }
 }
 
 
